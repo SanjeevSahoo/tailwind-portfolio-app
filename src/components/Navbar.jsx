@@ -43,7 +43,7 @@ function Navbar() {
           <li className="py-6 text-4xl text-center">Contact</li>
         </ul>
       </div>
-      <div className="fixed flex flex-col top-[50%] left-0">
+      <div className="hidden md:flex fixed flex-col top-[50%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-center items-center ml-[-100px] hover:ml-[0px] duration-300 bg-blue-600 ">
             <a
